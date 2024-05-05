@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+}
+
+.game{
+    padding: 10px;
+    position: relative;
+    top: 250px;
+}
+
+.keys tr{
+   padding: 10px;
+}
+
+.game .keys tr td button{
+    background-color: none;
+    border: none;
+    width: 100px;
+    height: 100px;
+}
+
+.game .keys tr td button:hover{
+    background-color: tomato;
+    color: white;
+}
+
+
+
+
+
+@keyframes heenaKanimation {
+    10%{
+        color: purple;
+    }
+    20%{
+        color: navy;
+    }
+    30%{
+        color: skyblue;
+    }
+    40%{
+        color: greenyellow;
+    }
+    50%{
+        color:yellow;
+    }
+    70%{
+        color: orange;
+    }
+    100%{
+        color: red;
+    }
+
+}
+
+.heena{
+    color: white;
+    animation-name: heenaKanimation;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+}
